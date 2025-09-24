@@ -30,7 +30,6 @@ jobs:
         filters: |
           changed:
             - backend/**
-            - frontend/**
             - .env
             - docker-compose*.yml
             - .github/workflows/playwright.yml
@@ -66,8 +65,6 @@ jobs:
         enable-cache: true
     - run: uv sync
       working-directory: backend
-    - run: npm ci
-      working-directory: frontend
     - run: uv run bash scripts/generate-client.sh
       env:
         VIRTUAL_ENV: backend/.venv
@@ -81,7 +78,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: blob-report-${{ matrix.shardIndex }}
-        path: frontend/blob-report
+        path: backend/blob-report
         include-hidden-files: true
         retention-days: 1
 
