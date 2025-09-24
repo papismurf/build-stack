@@ -110,10 +110,6 @@ The input variables, with their default values (some auto generated) are:
 
 Backend docs: [backend/README.md](./backend/README.md).
 
-## Frontend Development
-
-Frontend docs: [frontend/README.md](./frontend/README.md).
-
 ## Deployment
 
 Deployment docs: [deployment.md](./deployment.md).
@@ -130,4 +126,3 @@ Check the file [release-notes.md](./release-notes.md).
 
 ## License
 
-The Full Stack FastAPI Template is licensed under the terms of the MIT license.
