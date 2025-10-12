@@ -2,6 +2,9 @@
 
 [![Test Backend](https://github.com/papismurf/build-stack/actions/workflows/test-backend.yml/badge.svg)](https://github.com/papismurf/build-stack/actions/workflows/test-backend.yml)
 
+
++ [![cov](https://<you>.github.io/<repo>/badges/coverage.svg)](https://github.com/<you>/<repo>/actions)
+
 ## Technology Stack and Features
 
 - ⚡ [**FastAPI**](https://fastapi.tiangolo.com) for the Python backend API.
